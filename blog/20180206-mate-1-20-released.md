@@ -186,7 +186,7 @@ Here are all the gory details.
   * eel-accessibility: remove unused code and outdated comments
   * show correct right-click menu after making selection
   * eel: Queue resizes on the canvas as elements change visibility
-  * Add size_request to IconContainer to work around unncecessary relayouting
+  * Add size_request to IconContainer to work around unnecessary relayouting
   * IconCanvasItem: fix overlapping filenames on hover
   * eel: remove unneeded #include with condition
   * eel: remove some unused code from eel-gdk-pixbuf-extensions
@@ -337,12 +337,12 @@ Here are all the gory details.
   * libmate-panel-applet: fix error in unregistering dbus object
   * libmate-panel-applet: fix build warning
   * libmate-panel-applet: fix introspection
-  * libmate-panel-applet: unown bus name and unregister dbus object
+  * libmate-panel-applet: Fix unknown bus name and unregister dbus object
   * libmate-panel-applet GTK 3.14/3.16: fix custom bg w alpha
-  * libmate-panel-applet: include dummy variable in factory for certian applets
+  * libmate-panel-applet: include dummy variable in factory for certain applets
   * libmate-panel-applet: fix bg rendering for in-process applets
   * libpanel-applet/panel-applet.h: Rename id to `factory_id` for factory
-  * limatepanel-applet: add panel-applet-private.h
+  * libmate-panel-applet: add panel-applet-private.h
   * don't use GtkPlug/GtkSocket for in process applets
   * make it possible to get applet widget
   * libpanel-applet: add `panel_applet_factory_get_applet_widget`
@@ -363,7 +363,7 @@ Here are all the gory details.
   * system tray: fix hidden icons on image/transparent color BG
   * Fix GTK theme image bg support on vertical panel
   * Make panel image background in GTK theme work again
-  * clock: fix hovering over timezone text, causes panel to scale beyond screen limit
+  * clock: fix hovering over timezone text causes panel to scale beyond screen limit
   * GTK 3.18+ fix transparent default panel bg
   * menu: restore focus after drag-n-dropping menuitem outside
   * menu: restore focus after closing popup menu of a menuitem
@@ -480,7 +480,7 @@ Here are all the gory details.
   * TOK/TG: make padding in notebook tabs 2 pixels bigger
   * menta-fix "{{" typo breaking gtk-widgets.css file
   * All themes: Fix: print dialog paper depictions not appearing correctly
-  * Gtk+-3.20 Menta themes: don't make any different between backdrop and normal state
+  * Gtk+-3.20 Menta themes: don't make any difference between backdrop and normal state
   * Gtk+-3.20 most themes: mate-panel hide button modification
   * TOK/TG: caja: set gradient color to the notebook header border
   * Gtk+-3.20 submarine themes: mate-panel hide button modifications
@@ -894,7 +894,7 @@ Here are all the gory details.
   * drop CSS for GTK+ 3.18
   * egg-editable-toolbar.c/egg-toolbars-model.c: drop unused variables
   * print-preview: replace custom code with GDK function call
-  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions:
+  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions
   * don't use deprecated `gtk_show_uri`
   * avoid deprecated `gdk_screen_get_number`
   * fix warning on closing empty window with multiple eom windows
@@ -1008,10 +1008,10 @@ Here are all the gory details.
   * udisks plugin: fix memory management for GValue variables
   * Remove deprecated eee plugin
   * Fix popup shower on removed HDD
-  * ibm-acpi.c: Fix build warning:
-  * eee-plugin.c: Fix build warning:
-  * active-sensor.c: Fix build warning:
-  * sensors-applet.c: Fix build warning:
+  * ibm-acpi.c: Fix build warning
+  * eee-plugin.c: Fix build warning
+  * active-sensor.c: Fix build warning
+  * sensors-applet.c: Fix build warning
   * Fix indents
   * Fix project cleanup
   * Stop jumping applet as numbers change
@@ -1049,7 +1049,7 @@ Here are all the gory details.
   * find-dialog.ui: fix keyboard selection
   * avoid deprecated `vte_terminal_search_get_gregex`
   * add "select all" keyboard shortcut: <kbd>control</kbd> + <kbd>shift</kbd> + <kbd>A<kbd>
-  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions:
+  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions
   * avoid deprecated `gdk_screen_get_width/height`
   * avoid deprecated `gdk_screen_make_display_name`
   * terminal-util: avoid `deprecated gtk_show_uri`
@@ -1068,7 +1068,7 @@ Here are all the gory details.
 
   * Add screenshot support for HiDPI displays
   * mate-screenshot: added New button
-  * screenshot-save.c: Fix build warnings with `pipe` `write` and `read`:
+  * screenshot-save.c: Fix build warnings with `pipe` `write` and `read`
   * add style class logview-window
   * Translations update
   * WidthOfScreen and HeightOfScreen implementation
@@ -1080,7 +1080,7 @@ Here are all the gory details.
   * baobab: don't make prefs dialog visible in .ui file
   * baobab: set parent window for About dialog
   * avoid deprecated `gdk_screen_get_active_window`
-  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions:
+  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions
   * avoid deprecated `gdk_screen_width/height`
   * avoid deprecated `gdk_screen_get_width/height`
   * screenshot: avoid deprecated GdkDevice objects
@@ -1105,9 +1105,9 @@ Here are all the gory details.
   * put `peas_engine_enable_loader` in the correct place
   * Fix: make the list of recently used files working again
   * drop unused variables
-  * pluma-spell-checker-language.c: Fix build warning:
-  * pluma.c: Fix build warning:
-  * pluma-document.c: Fix build warning:
+  * pluma-spell-checker-language.c: Fix build warning
+  * pluma.c: Fix build warning
+  * pluma-document.c: Fix build warning
   * pluma-window: have GtkRecentData on stack instead of allocating it
   * WidthOfScreen and HeightOfScreen implementation
   * Fixes for regexp replacement with backreferences (e.g. `"\0"`)
@@ -1119,7 +1119,7 @@ Here are all the gory details.
   * don't request to save documents with no changes
   * add gsettings key to hide/show(default) tabs with the side pane
   * Hide tabs if we are using the sidebar
-  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions:
+  * gtk 3.22: avoid deprecated `gdk_screen_get_monitor` functions
   * avoid deprecated `gdk_screen_get_width/height`
   * avoid deprecated `gdk_screen_make_display_name`
   * pluma-help: don't use `deprecated gtk_show_uri`
